@@ -11,9 +11,7 @@
 - Provides a per-extension summary of files removed
 
 ## Usage
-1. Edit `media-cleaner.sh` to set your media folder paths.
-2. Run in dry-run mode to preview deletions:
-DRY_RUN=true ./media-cleaner.sh
-
-4. When ready, set DRY_RUN=false to perform actual cleanup.
+1. Edit `unraid-media-cleaner.sh` to set your media folder paths.
+2. Run in dry-run mode to preview deletions: `DRY_RUN=true ./unraid-media-cleaner.sh`
+4. When ready, set `DRY_RUN=false` to perform actual cleanup.
 5. Optionally, schedule via the Unraid User Scripts plugin.
